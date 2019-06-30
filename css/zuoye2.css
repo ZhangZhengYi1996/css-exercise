@@ -1,0 +1,323 @@
+*{
+	margin: 0;
+	padding:0;
+}
+
+.header{
+	background-color: #07cbc9;
+	width: 100%;
+	height: 50px;
+	overflow: hidden;
+	zoom:1;
+	position: fixed;
+	z-index: 10;
+}
+.header img{
+	width: 200px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 80px;
+}
+.header .logo{
+    float: left;
+}
+.header .nav{
+	float: right;
+}
+.header ul{
+    margin-right: 50px;
+}
+.header li{
+	list-style: none;
+    float: left;
+    padding-left:10px;
+    padding-right:10px;
+    line-height: 50px;
+    font-family: "Microsoft YaHei UI";
+    font-size: 15px;
+    font-weight: bolder;
+}
+.header li:hover{
+	background-color: black;
+}
+.header a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.banner img{
+	width: 100%;
+	height: 500px;
+}
+.banner .toplayer{
+	background-color: black;
+	width: 100%;
+	height: 450px;
+	opacity: 0.5;
+	position: absolute;
+	top: 50px;
+}
+.banner .form{
+	
+	z-index: 5;
+	position: absolute;
+	top: 250px;
+	margin-top: -123px;
+	left: 50%;
+	margin-left:-152px; 
+}
+.banner form input{
+	width: 300px;
+	height: 30px;
+	margin-top: 10px;
+	font-size: 10px;
+	font-family: "Microsoft YaHei UI";
+	
+}
+.banner form textarea{
+	width: 300px;
+	height: 60px;
+	margin-top: 10px;
+	font-size: 10px;
+	font-family: "Microsoft YaHei UI";
+	
+}
+.banner form .submit{
+	width: 100px;
+	margin-left: 102px;
+
+}
+.banner form input,.banner form textarea{
+	background: none;
+	border: 1px solid gray;
+	color: gray;
+}
+.banner form input:hover,.banner form textarea:hover{
+	border-color:#07cbc9;  
+}
+.banner form .submit:hover{
+	border: none;
+	background-color:#07cbc9; 
+}
+.about{
+	width: 100%;
+
+}
+.about .top,.gallery .top{
+	text-align: center;
+	font-family: "Microsoft YaHei UI";
+}
+.about .top .title,.gallery .top .title{
+	font-size: 30px;
+	font-weight: bolder;
+	color: black;
+	margin-top: 30px;
+	margin-bottom: 5px;
+}
+.about .top .line,.gallery .top .line{
+	width: 25px;
+	margin: 10px auto;
+	border: 1px solid #07cbc9;
+}
+.about .top .word,.gallery .top .word{
+	color: gray;
+	line-height: 25px;
+	margin-bottom: 15px;
+}
+
+.about .middle .include{
+	width: 960px;
+	height: 400px;
+	font-family: "Microsoft YaHei UI";
+	margin: 10px auto;
+	
+	overflow: hidden;
+	zoom:1;
+	position: relative;
+
+}
+.about .middle .include .left .title{
+	font-size: 30px;
+	padding-bottom: 10px;
+	
+	margin-top: 20px;
+	margin-left: 25px;
+	text-align: center;
+	
+}
+.about .middle .include .sentence{
+	
+	line-height: 25px;
+	color: black;
+	background-color: rgb(255,255,255,0.3);
+	width: 350px;
+	height: 200px;
+	border: 1px solid gray;
+	position: absolute;
+	top: 140px;
+	padding-left: 20px;
+
+
+}
+.about .middle .include .sentence button{
+	color: white;
+	background-color: black;
+	width: 100px;
+	height: 50px;
+	border: none;
+	margin-top: 10px;
+	
+}
+.about .middle .include .sentence button:hover{
+	color: black;
+	background-color: transparent;
+	border: 1px solid black;
+}
+
+.about .middle .include .right{
+	
+	margin-top: 80px;
+}
+.about .middle .include .right hr{
+	width: 25px;
+	margin: 10px auto;
+	border: 1px solid #07cbc9;
+}
+.about .middle .include .right .top ,.about .middle .include .right .lower{
+	width: 200px;
+	height: 100px;
+	border: 1px solid #07cbc9;
+	margin:10px 0px;
+    text-align: center;
+    line-height: 10px;
+
+}
+.about .middle  .include .right .top .word{
+	color: black;
+}
+.about .middle  .include .right h2{
+	padding-top: 15px;
+}
+.about .middle  .include .left{
+	float: left;
+	
+	z-index: 5;
+}
+.about .middle  .include .pic{
+	float: left;
+	
+	margin-top: 25px;
+	margin-left: 5px;
+	margin-right: 10px;
+}
+.about .middle .include .pic img{
+	width: 550px;
+	height: 350px;
+}
+.about .middle  .include .right{
+	float: left;
+	
+}
+.about .bottom img{
+	width: 25%;
+	height:300px;
+	float: left;
+}
+.about .bottom .explore{
+    width: 25%;
+	height:300px;
+	background-color: #07cbc9;
+	float: left;
+	font-family: "Microsoft YaHei UI";
+	position: relative;
+
+}
+.about .bottom .explore .title{
+	color: white;
+	font-size: 30px;
+	padding-bottom: 15px;
+	padding-top: 15px;
+	padding-left:15px;
+}
+.about .bottom .explore .w1{
+	color: white;
+	font-size: 15px;
+	padding-bottom: 15px;
+	padding-left:15px;
+}
+.about .bottom .explore .w2{
+	color: gray;
+	font-size: 12px;
+	padding-bottom: 15px;
+	padding-left:15px;
+}
+.about .bottom .explore button{
+	color: white;
+	background-color: black;
+	width: 100px;
+	height: 50px;
+	border: none;
+	margin-left: 50%;
+	position: relative;
+	left: -50px;
+}
+.about .bottom .explore button:hover{
+	color: black;
+	background-color: transparent;
+	border: 1px solid black;
+}
+.about .bottom .explore .arrow1{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 20px 20px 20px;
+	border-color: transparent  #07cbc9 transparent transparent ;
+	position: absolute; 
+	top: 130px;
+	left: -40px;
+}
+.about .bottom .explore .arrow2{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 20px 20px 20px;
+	border-color: transparent   transparent transparent #07cbc9;
+	position: absolute; 
+	top: 130px;
+	right: -40px;
+}
+
+.gallery .lower dl dd{
+    width: 280px;
+    background-color: black;
+    color: white;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    margin: 0;
+}
+.gallery .lower dl dt img{
+	display: block;
+	width: 300px;height: 200px;
+}
+.gallery .lower dl{
+	float: left;
+	margin:10px 10px;
+}
+.gallery .lower{
+	width: 960px;
+	height: 530px;
+	margin:0 auto;
+	overflow: hidden;
+	zoom:1;
+}
+
+.footer{
+	width: 100%;
+	height: 50px;
+	background-color:#07cbc9;
+	line-height: 50px;
+	text-align: center;
+	margin-top: 20px;
+	color: white; 
+}
